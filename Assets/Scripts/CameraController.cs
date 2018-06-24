@@ -13,9 +13,9 @@ public class CameraController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void LateUpdate ()                // no idea why I called LateUpdate instead of Update. I just saw a tutorial in Youtube. 
+	void LateUpdate ()                 
 	{
 		transform.position = player.transform.position + offset; 
 	}
 }
-// no u! AHAHAHAHAHA 
+ 
